@@ -1,0 +1,52 @@
+body {
+  touch-action: none; /* https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action */
+  font-family: "Roboto";
+}
+
+h1 {
+  margin: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#paint {
+  border: 5px solid rgb(96, 163, 188);
+  margin: auto;
+}
+
+#predicted {
+  font-size: 20px;
+  margin: 30px;
+  text-align: center;
+}
+
+#number {
+  border: 3px solid rgb(227, 219, 219);
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#clear {
+  /*margin: auto;*/
+  margin: 20px;
+  padding: 10px; /* reducir el valor de padding vertical */
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Estilos adicionales para el segundo modelo */
+#predicted-2 {
+  font-size: 20px;
+  margin: 30px;
+  text-align: center;
+}
+
+#number-2 {
+  border: 3px solid black;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
