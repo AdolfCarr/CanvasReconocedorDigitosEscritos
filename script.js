@@ -80,7 +80,7 @@ tf.loadLayersModel("model_convolucional/model.json").then(function (model) {
   window.modelConv60 = model;
 });
 
-tf.loadLayersModel("model_sequencial/model.json").then(function (model) {
+tf.loadLayersModel("model_convolucional200/model.json").then(function (model) {
   window.modelConv200 = model;
 });
 
